@@ -1,0 +1,310 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <!-- Basic Page Needs
+  ================================================== -->
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>phishrecon</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+
+  <!-- Bootstrap
+  ================================================== -->
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <!-- Stylesheet
+  ================================================== -->
+  <link rel="stylesheet" href="css/style.css">
+
+  
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  
+  
+
+</head>
+<body>
+
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 
+    <!--header-->
+    <header class="wrapper-phishrecon-header">
+        
+                    <div class="container">
+                   <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">phishrecon</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">My Compaigns </a></li>
+        <li><a href="#">Mailers</a></li>
+       
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+          <li><button type="submit" class="btn btn-default">Request for creating Compaigns</button></li>
+          <li><button type="submit" class="btn btn-default">create Compaign</button></li>
+        <li><span class="glyphicon glyphicon-info-sign btn-lg"></span></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle btn-lg" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-certificate "></span> Acme <span class="caret"></span></a>
+          <ul class="dropdown-menu"> 
+              <li   data-target="#signinModal" data-toggle="modal"><a href="#">Sign in</a></li>
+              <li><a data-target="#registerpModal" data-toggle="modal" href="#">Register</a></li>
+     </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+        
+        
+        
+        
+        
+        
+        
+          </div></div></div>
+        
+</header>
+
+   
+    
+    
+     <!-- Sign in modal -->   
+     <div class="wrapper-signin-model">
+    <div class="modal fade" id="signinModal" tabindex="-1" role="dialog" aria-labelledby="signinLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        
+          <h2>Sign in</h2>
+          
+              <button class="btn btn-default facebook-button" type="submit">Continue with Facebook</button>
+          
+            
+              <div class="wrapper-hr-text">
+                  
+                  
+                  <div class="hr-text-left"><hr/></div>
+                  or
+                   <div class="hr-text-right"><hr/></div>
+
+                  
+                  
+              </div>
+              
+              <form>
+              <input placeholder="Your e-mail">
+          <input type="password" placeholder="Your password">
+              
+                                         
+              <button class="btn btn-default signin-button" type="submit">Sign in</button>
+              
+                                   
+          <div class="submit-align">
+              
+              
+                                    <div class="row">
+                                                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+                                                       <div class="submit-align-inner"><a data-target="#registerpModal" data-toggle="modal" href="#">Register</a></div>
+                                     </div> 
+                                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+                                                       <div class="submit-align-inner"><a data-target="#forgotpwdModal" data-toggle="modal" href="#">Forgot password?</a></div>
+                                     </div> 
+                                        
+                                    </div> 
+                                        
+          </div>
+              </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+     </div>
+    
+    
+    
+    
+     
+    
+     <!-- register modal -->   
+     <div class="wrapper-register-model">
+    <div class="modal fade" id="registerpModal" tabindex="-1" role="dialog" aria-labelledby="registerLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+        
+          <h2>Register</h2>
+          
+              <button class="btn btn-default facebook-button" type="submit">Continue with Facebook</button>
+          
+              <div class="wrapper-hr-text">
+                  
+                  
+                  <div class="hr-text-left"><hr/></div>
+                  or
+                   <div class="hr-text-right"><hr/></div>
+
+                  
+                  
+              </div>
+              
+              
+              
+              <form>
+                  
+                  
+                  
+                                    <div class="row">
+                                                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       
+                                                        <input placeholder="First name">
+                                                   </div>
+                                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       <input placeholder="Last name">
+                                                       
+                                                   </div>
+                                    </div>
+                  
+             
+                  
+                    
+                   <div class="row">
+                                                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       
+                                                        <input placeholder="E - mail">
+                                                   </div>
+                    </div>
+                  
+                  
+                  
+                    <div class="row">
+                                                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       
+                                                        <input type="password" placeholder="Password">
+                                                   </div>
+                                           <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       <input type="password" placeholder="Confirm password">
+                                                       
+                                                   </div>
+                                    </div>
+                  
+                    <div class="row">
+                                                   <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                       
+                                                       <button class="btn btn-default register-button" type="submit">Register</button>
+              
+                                                   </div>
+                    </div>
+                  
+                  
+                  
+          
+       
+                  
+              
+                                   
+          <div class="submit-align">
+              
+              
+                                    <div class="row">
+                                                   <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+                                                       <div class="submit-align-inner"><a data-target="#signinModal" data-toggle="modal" href="#">Sign in</a></div>
+                                     </div> 
+                                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+              
+                                                       <div class="submit-align-inner"><a data-target="#forgotpwdModal" data-toggle="modal" href="#">Singing up you agree with terms of use</a></div>
+                                     </div> 
+                                        
+                                    </div> 
+                                        
+          </div>
+              </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+     
+     <!-- forgot pwd modal -->   
+     <div class="wrapper-forgotpwd-model">
+    <div class="modal fade" id="forgotpwdModal" tabindex="-1" role="dialog" aria-labelledby="forgotpwdLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+     
+      <div class="modal-body">
+          <h2>Forgot your password?</h2>
+          <p>Type your email and we’ll send your reset link</p>
+          <form>
+          <input placeholder="Your e-mail">
+          
+          <div class="submit-align">
+              
+              <button class="btn btn-default reset-pwd-button" type="submit">Send a link</button>
+           
+          </div>
+          </form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+     </div>
+     
+     
+    
+     
+    
+    
+    
+    
+   
+    <!--footer-->
+    <footer class="wrapper-phishrecon-footer">
+        
+    </footer>
+    
+    
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</body>
+</html>
