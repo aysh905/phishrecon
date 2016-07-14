@@ -1,0 +1,452 @@
+/* CSS Document  */
+
+
+
+ 
+body,
+html {
+ 
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+.wrapper-phishrecon-header button{
+    margin-top: 8px;
+      margin-right: 9px;
+}
+
+
+
+
+
+/********* Sign in modal **********/
+
+
+.wrapper-signin-model .modal-content {
+
+border: none;
+border-radius: 0;
+box-shadow: none;
+
+}
+.wrapper-signin-model .modal-dialog{
+    width: 446px;
+}
+
+.wrapper-signin-model .modal-body {
+  padding: 35px 45px;
+
+}
+.wrapper-signin-model h2 {
+ color: #1e405b;
+ 
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+    margin-top: 7px;
+}
+
+.wrapper-signin-model  button.facebook-button {
+  background-color: #6479a1;
+  border: medium none;
+  color: #fff;
+  font-size: 16px;
+    margin-top: 10px;
+  outline: medium none;
+  padding: 11px 0px;
+  width: 100%;
+      margin-bottom: 21px;
+      
+}
+
+.wrapper-signin-model .wrapper-hr-text{
+   color: #bbbdc6;
+   font-size: 14px;
+   text-transform: uppercase;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.wrapper-signin-model .wrapper-hr-text .hr-text-left{
+    float:left;
+    width: 44%;
+    
+}
+
+.wrapper-signin-model .wrapper-hr-text .hr-text-right{
+    
+    float:right; 
+    width: 44%;
+}
+
+
+.wrapper-signin-model .wrapper-hr-text .hr-text-left hr{
+ margin-top: 10px;
+    border-color: #dbdce3;
+}
+
+.wrapper-signin-model .wrapper-hr-text .hr-text-right hr{
+    
+    border-color: #dbdce3;
+  margin-top: 10px;
+}
+.wrapper-signin-model .modal-content form input{
+
+border: 1px solid #dbdce3;
+
+color: #1e405b;
+height: 50px;
+margin-bottom: 22px;
+padding: 0 10px;
+width: 100%;
+font-size: 14px;
+
+}
+
+
+.wrapper-signin-model input::-webkit-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-signin-model input::-moz-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-signin-model input::-ms-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-signin-model .submit-align{
+ margin-bottom: 7px;
+    margin-top: 12px;
+}
+.wrapper-signin-model .submit-align .submit-align-inner{
+  margin-top: 20px;
+    text-align: left;
+}
+
+.wrapper-signin-model .submit-align .submit-align-inner a{
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3192d5;
+    outline: none;
+}
+.wrapper-signin-model button.signin-button {
+  background-color: #e7e7e7;
+  border: medium none;
+  
+  font-size: 14px;
+    margin-top: 10px;
+  outline: medium none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  width: 100%;
+      
+      margin-bottom: 0px;
+}
+
+
+
+
+/********* forgot pwd modal **********/
+
+
+.wrapper-forgotpwd-model .modal-content {
+
+border: none;
+border-radius: 0;
+box-shadow: none;
+
+}
+.wrapper-forgotpwd-model .modal-dialog{
+    width: 446px;
+}
+
+.wrapper-forgotpwd-model .modal-body {
+  padding: 35px 45px;
+
+}
+.wrapper-forgotpwd-model h2 {
+ color: #26495c;
+  font-size: 24px;
+  text-align: center;
+   margin-bottom: 13px;
+    margin-top: 10px;
+
+}
+
+
+.wrapper-forgotpwd-model p {
+color: #26495c;
+font-size: 14px;
+line-height: 1.3;
+margin: 0 auto;
+text-align: center;
+width: 78%;
+}
+
+.wrapper-forgotpwd-model .modal-content form input{
+
+border: 1px solid #dbdce3;
+color: #1e405b;
+font-size: 14px;
+height: 50px;
+margin-bottom: 30px;
+margin-top: 30px;
+padding: 0 10px;
+width: 100%;
+
+}
+
+
+.wrapper-forgotpwd-model input::-webkit-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-forgotpwd-model input::-moz-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-forgotpwd-model input::-ms-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+
+.wrapper-forgotpwd-model  button.reset-pwd-button {
+  background-color: #e7e7e7;
+  border: medium none;
+  font-size: 14px;
+     margin-bottom: 12px;
+    margin-top: 10px;
+    outline: medium none;
+    padding: 15px 0px;
+  text-transform: uppercase;
+  width: 100%;
+  
+}
+
+
+
+
+
+
+
+/********* Register modal **********/
+
+
+.wrapper-register-model .modal-content {
+
+border: none;
+border-radius: 0;
+box-shadow: none;
+
+}
+.wrapper-register-model .modal-dialog{
+    width: 446px;
+}
+
+.wrapper-register-model .modal-body {
+  padding: 35px 45px;
+
+}
+.wrapper-register-model h2 {
+color: #1e405b;
+font-size: 20px;
+line-height: 1.2;
+margin: 7px -65px 13px;
+text-align: center;
+}
+
+.wrapper-register-model  button.facebook-button {
+  background-color: #6479a1;
+  border: medium none;
+  color: #fff;
+  font-size: 16px;
+    margin-top: 10px;
+  outline: medium none;
+  padding: 11px 0px;
+  width: 100%;
+  
+      margin-bottom: 30px;
+      
+}
+
+.wrapper-register-model .wrapper-hr-text{
+   color: #bbbdc6;
+   font-size: 14px;
+   text-transform: uppercase;
+    margin-bottom: 29px;
+    text-align: center;
+}
+
+.wrapper-register-model .wrapper-hr-text .hr-text-left{
+    float:left;
+    width: 44%;
+    
+}
+
+.wrapper-register-model .wrapper-hr-text .hr-text-right{
+    
+    float:right; 
+    width: 44%;
+}
+
+
+.wrapper-register-model .wrapper-hr-text .hr-text-left hr{
+ margin-top: 10px;
+    border-color: #dbdce3;
+}
+
+.wrapper-register-model .wrapper-hr-text .hr-text-right hr{
+    
+    border-color: #dbdce3;
+  margin-top: 10px;
+}
+.wrapper-register-model .modal-content form input{
+
+border: 1px solid #dbdce3;
+border-radius: 4px;
+color: #1e405b;
+height: 50px;
+margin-bottom: 15px;
+padding: 0 10px;
+width: 100%;
+font-size: 14px;
+
+}
+.wrapper-register-model input::-webkit-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-register-model input::-moz-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-register-model input::-ms-input-placeholder {
+opacity: 1 !important;
+color: #bcbec7 !important;
+
+}
+.wrapper-register-model .submit-align{
+ margin-bottom: 7px;
+    margin-top: 12px;
+}
+.wrapper-register-model .submit-align .submit-align-inner{
+  margin-top: 20px;
+    text-align: left;
+}
+.wrapper-register-model .submit-align .submit-align-inner a{
+    
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #3192d5;
+    outline: none;
+}
+.wrapper-register-model button.register-button {
+  background-color: #e7e7e7;
+  border: medium none;
+  font-size: 14px;
+    margin-top: 10px;
+  outline: medium none;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 380px) {
+    
+}
+
+
+@media (max-width: 480px) {
+  .wrapper-signin-model .modal-dialog {
+  
+  width: 90%;
+}
+.wrapper-signin-model .modal-body {
+  padding: 35px 25px;
+}
+
+.wrapper-forgotpwd-model .modal-dialog {
+ width: 90%;
+  
+}
+
+.wrapper-forgotpwd-model .modal-body {
+  padding: 35px 25px;
+}
+
+.wrapper-register-model .modal-dialog {
+ 
+  width: 90%;
+}
+.wrapper-register-model .modal-body {
+  padding: 35px 25px;
+}
+
+}
+@media (min-width: 481px)and (max-width: 767px) {
+    
+    
+  
+    
+ }
+ 
+
+@media (max-width: 767px) {
+  .wrapper-signin-model .modal-dialog {
+  margin: 60px auto 0;
+  
+}
+.wrapper-forgotpwd-model .modal-dialog {
+ 
+   margin: 60px auto 0;
+}
+
+.wrapper-register-model .modal-dialog {
+  margin: 60px auto 0;
+
+}
+}
+
+
+@media (min-width: 768px)and (max-width: 979px) {
+
+}
+
+
+  @media (min-width: 980px)and (max-width: 991px) {
+
+  }
+  
+
+
+
+@media (min-width: 1200px) {
+
+}
+    
