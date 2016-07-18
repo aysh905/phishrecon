@@ -387,15 +387,191 @@ color: #bcbec7 !important;
   margin-bottom: 0px;
 }
 
+/********* mailer list status page **********/
+
+.wrapper-mailer-list-status .mailer-status-header{
+    border-bottom: 3px solid #dbdce3;
+    padding-bottom: 50px;
+     margin-bottom: 30px;
+}
+.wrapper-mailer-list-status .mailer-status-header .heading-left{
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+.wrapper-mailer-list-status .mailer-status-header .button-right{
+    float: right;
+    font-size: 14px;
+}
+.wrapper-mailer-list-status .wrapper-status-table {
+ margin-top: 20px;   
+}
+
+/********** on/off switch *********/
+
+
+.wrapper-mailer-list-status .onoffswitch {
+  position: relative;
+  width: 100px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  margin-top: 6px;
+}
+
+.wrapper-mailer-list-status .onoffswitch-checkbox {
+  display: none;
+}
+
+.wrapper-mailer-list-status .onoffswitch-label {
+  display: block;
+  overflow: hidden;
+  cursor: pointer;
+  border: 0px solid #999999;
+  border-radius: 0px;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inner {
+  width: 200%;
+  margin-left: -100%;
+  -moz-transition: margin 0.3s ease-in 0s;
+  -webkit-transition: margin 0.3s ease-in 0s;
+  -o-transition: margin 0.3s ease-in 0s;
+  transition: margin 0.3s ease-in 0s;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inner > div {
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 30px;
+  padding: 0;
+  line-height: 30px;
+  font-size: 14px;
+  color: white;
+  font-family: Trebuchet, Arial, sans-serif;
+  font-weight: bold;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inner .onoffswitch-active {
+  padding-left: 15px;
+  background-color: #C2C2C2;
+  color: #FFFFFF;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inner .onoffswitch-inactive {
+  padding-right: 15px;
+  background-color: #C2C2C2;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.wrapper-mailer-list-status .onoffswitch-switch {
+  width: 40px;
+  margin: 0px;
+  text-align: center;
+  border: 0px solid #999999;
+  border-radius: 0px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.wrapper-mailer-list-status .onoffswitch-active .onoffswitch-switch {
+  background: #009e0f;
+  left: 0;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inactive .onoffswitch-switch {
+  background: #A1A1A1;
+  right: 0;
+}
+
+.wrapper-mailer-list-status .onoffswitch-active .onoffswitch-switch:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 40px;
+  border-style: solid;
+  border-color: #009e0f transparent transparent #009e0f;
+  border-width: 15px 10px;
+}
+
+.wrapper-mailer-list-status .onoffswitch-inactive .onoffswitch-switch:before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 40px;
+  border-style: solid;
+  border-color: transparent #A1A1A1 #A1A1A1 transparent;
+  border-width: 15px 10px;
+}
+
+.wrapper-mailer-list-status .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
+  margin-left: 0;
+} 
 
 
 
+/******* on/off switch ends ******/
 
 
 
+/*******  radio button status ******/
+.wrapper-mailer-list-status .wrapper-radio-button-status{
+        margin-top: 10px;
+}
+.wrapper-mailer-list-status .wrapper-radio-button-status input[type=radio]{
+	    display:none;
+	}
+	.wrapper-mailer-list-status .wrapper-radio-button-status input[type=radio] + label:before {
+	    content: "";  
+	    display: inline-block;  
+	    width: 15px;  
+	    height: 15px;  
+	    vertical-align:middle;
+	    margin-right: 8px;  
+	    background-color: #cccccc;  
+	    box-shadow: inset 0px 2px 2px rgba(0, 0, 0, .3);
+	    border-radius: 8px;  
+	}
+	
+	.wrapper-mailer-list-status .wrapper-radio-button-status input.color-button-green[type=radio]:checked + label:before {
+	
+	    background-color: #009e11; 
+		font-size:1.8em;
+		text-align:center;
+		line-height:14px;
+		
+	}
+        .wrapper-mailer-list-status .wrapper-radio-button-status input.color-button-yellow[type=radio]:checked + label:before {
+	
+	    background-color: #f6b26b; 
+		font-size:1.8em;
+		text-align:center;
+		line-height:14px;
+		
+	}
+        .wrapper-mailer-list-status .wrapper-radio-button-status input.color-button-red[type=radio]:checked + label:before {
+	
+	    background-color: #cf2a28; 
+		font-size:1.8em;
+		text-align:center;
+		line-height:14px;
+		
+	}
+	
+/******* radio button status ends ******/
 
 
-
+ .wrapper-mailer-list-status .wrapper-name-handling{
+   padding: 11px 0;   
+    
+}
 
 
 
