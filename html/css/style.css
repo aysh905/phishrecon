@@ -26,7 +26,7 @@ a:focus {
 
 .wrapper-signin-model .modal-content {
 
-border: none;
+border: 5px solid #e7e7e7;
 border-radius: 0;
 box-shadow: none;
 
@@ -129,11 +129,20 @@ color: #bcbec7 !important;
   margin-top: 20px;
     text-align: left;
 }
-
+.wrapper-signin-model .submit-align .submit-align-inner-right{
+      margin-top: 20px;
+    text-align: right;
+}
+.wrapper-signin-model .submit-align .submit-align-inner-right a{
+    font-size: 14px;
+    
+    color: #3192d5;
+    outline: none;
+}
 .wrapper-signin-model .submit-align .submit-align-inner a{
     
     font-size: 14px;
-    text-transform: uppercase;
+    
     color: #3192d5;
     outline: none;
 }
@@ -159,13 +168,14 @@ color: #bcbec7 !important;
 
 .wrapper-forgotpwd-model .modal-content {
 
-border: none;
+border: 5px solid #bbb;
 border-radius: 0;
 box-shadow: none;
 
+
 }
 .wrapper-forgotpwd-model .modal-dialog{
-    width: 446px;
+    width: 490px;
 }
 
 .wrapper-forgotpwd-model .modal-body {
@@ -245,9 +255,10 @@ color: #bcbec7 !important;
 
 .wrapper-register-model .modal-content {
 
-border: none;
+border: 5px solid #e7e7e7;
 border-radius: 0;
 box-shadow: none;
+
 
 }
 .wrapper-register-model .modal-dialog{
@@ -346,13 +357,24 @@ color: #bcbec7 !important;
   margin-top: 20px;
     text-align: left;
 }
+.wrapper-register-model .submit-align .submit-align-inner-right{
+      margin-top: 20px;
+    text-align: right;
+}
 .wrapper-register-model .submit-align .submit-align-inner a{
     
     font-size: 14px;
-    text-transform: uppercase;
+   
     color: #3192d5;
     outline: none;
 }
+.wrapper-register-model .submit-align .submit-align-inner-right a{
+       font-size: 14px;
+   
+    color: #3192d5;
+    outline: none;
+}
+
 .wrapper-register-model button.register-button {
   background-color: #e7e7e7;
   border: medium none;
@@ -392,7 +414,7 @@ color: #bcbec7 !important;
 }
 
 .wrapper-forgotpwd-model .modal-dialog {
- width: 90%;
+ width: 95%;
   
 }
 
@@ -430,6 +452,13 @@ color: #bcbec7 !important;
 .wrapper-register-model .modal-dialog {
   margin: 60px auto 0;
 
+}
+.wrapper-register-model .submit-align .submit-align-inner-right{
+     
+    text-align: left;
+}
+.wrapper-signin-model .submit-align .submit-align-inner-right {
+  text-align: left;
 }
 }
 
